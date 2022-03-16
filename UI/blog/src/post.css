@@ -1,0 +1,14 @@
+.deletedPost{
+    background-color: grey;
+    opacity: 0.3;
+}
+.post:not(.deletedPost):hover{
+    background-color: lightblue;
+}
+.postApp{
+    font-family: ui-sans-serif;
+}
+
+.post {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+}
