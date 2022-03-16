@@ -30,7 +30,7 @@ function App() {
     setshowPost(true)
   }
 
-  if (loading) return <Grid><CircularProgress /></Grid>
+  if (loading) return <Grid className='loader' container><Grid item><CircularProgress /></Grid></Grid>
   if (error) return <>error</>
   return (
     <div style={{ padding: 30 }} className="postApp">
